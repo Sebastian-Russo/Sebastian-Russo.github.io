@@ -66,6 +66,10 @@ div.p {
   width: 80%;
 }
 
+a {
+  /* text-decoration: none; */
+}
+
 section {
   min-height: 200px;
   padding: 6% 0;  
