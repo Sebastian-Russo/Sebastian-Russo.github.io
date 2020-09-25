@@ -20,6 +20,7 @@ ul {
   padding: 0;
   margin: 0;
   margin-right: 20px;
+  /* visibility: hidden; */
 }
 nav ul li {
   display: inline-block;
@@ -52,6 +53,11 @@ nav ul li a:hover {
 #check {
   display: none;
 }
+
+.hidden {
+  visibility: hidden;
+}
+
 
 /* HEADER AND MAIN */
 
@@ -138,7 +144,6 @@ footer {
     top: 80px;
     left: 70%;
     text-align: left;
-    /* direction: rtl; */
     opacity: .3;
   }
   nav ul li {
