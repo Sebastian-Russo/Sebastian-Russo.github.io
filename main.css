@@ -86,7 +86,7 @@ section:nth-child(even) {
 }
 
 img {
-    border: solid;
+    border: black solid;
     height: auto;
     width: 300px;
 }
