@@ -62,10 +62,13 @@ header {
 p {
   text-align: center;
 }
+div.p {
+  width: 80%;
+}
 
 section {
   min-height: 200px;
-  padding: 6% 0;
+  padding: 6% 0;  
 }
 
 section:nth-child(even) {
@@ -77,6 +80,31 @@ img {
     height: auto;
     width: 300px;
 }
+.btn {
+  border: black solid;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 8px;
+  text-decoration: none;
+  margin: 5px;
+  display: inline-block;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.tech {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
+i {
+  font-size: 40px;
+}
+
 
 footer {
     padding: 1% 0;
