@@ -58,12 +58,28 @@ nav ul li a:hover {
   visibility: hidden;
 }
 
+#hamburger {
+  border: white solid;
+  border-radius: 50%;
+  font-size: 12px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+#hamburger:active {
+  border-color: black;
+  background-color: white;
+  color: black;
+}
 
 /* HEADER AND MAIN */
 
 header {
   padding: 12% 0;
   text-align: center;
+
 }
 p {
   text-align: center;
@@ -72,9 +88,6 @@ div.p {
   width: 80%;
 }
 
-a {
-  /* text-decoration: none; */
-}
 
 section {
   min-height: 200px;
@@ -118,6 +131,8 @@ i {
 
 footer {
     padding: 1% 0;
+    background-color: black;
+    color: white;
 }
 
 /* RESPONSIVE DESIGN */
