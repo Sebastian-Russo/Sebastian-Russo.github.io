@@ -20,7 +20,6 @@ ul {
   padding: 0;
   margin: 0;
   margin-right: 20px;
-  /* visibility: hidden; */
 }
 nav ul li {
   display: inline-block;
@@ -56,6 +55,8 @@ nav ul li a:hover {
 
 .hidden {
   visibility: hidden;
+  left: 100%;
+  transition: .5s;
 }
 
 #hamburger {
@@ -152,14 +153,20 @@ footer {
   .checkbtn {
     display: block;
   }
+  nav {
+    transition: .5s;
+    margin-left: 0;
+
+  }
   nav ul {
     position: fixed;
-    height: 100vh;
+    height: auto;
     background: black;
     top: 80px;
     left: 70%;
     text-align: left;
-    opacity: .3;
+    opacity: .8;
+    transition: .5s;
   }
   nav ul li {
     display: block;
@@ -167,5 +174,4 @@ footer {
   nav ul li a {
     font-size: 20px;
   }
-
 }
