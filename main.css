@@ -102,8 +102,14 @@ section:nth-child(even) {
 img {
     border: black solid;
     height: auto;
-    width: 300px;
+    max-width: 100%;
 }
+
+.image-box {
+  max-width: 800px;
+  margin: auto;
+}
+
 .btn {
   border: black solid;
   border-radius: 25px;
@@ -137,17 +143,6 @@ footer {
 }
 
 /* RESPONSIVE DESIGN */
-
-@media only screen and (min-width: 670px) {
-  img {
-      height: auto;
-      width: 1000px;
-  }
-
-  nav ul li a {
-    font-size: 16px;
-  }
-}
 
 @media (max-width: 670px) {
   .checkbtn {
