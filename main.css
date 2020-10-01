@@ -141,6 +141,9 @@ footer {
     background-color: black;
     color: white;
 }
+footer a {
+  color: white;
+}
 
 /* RESPONSIVE DESIGN */
 
