@@ -56,7 +56,7 @@ nav ul li a:hover {
 .hidden {
   visibility: hidden;
   left: 100%;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 #hamburger {
@@ -80,7 +80,6 @@ nav ul li a:hover {
 header {
   padding: 12% 0;
   text-align: center;
-
 }
 p {
   text-align: center;
@@ -89,10 +88,9 @@ div.p {
   width: 80%;
 }
 
-
 section {
   min-height: 200px;
-  padding: 6% 0;  
+  padding: 6% 0;
 }
 
 section:nth-child(even) {
@@ -100,9 +98,9 @@ section:nth-child(even) {
 }
 
 img {
-    border: black solid;
-    height: auto;
-    max-width: 100%;
+  border: black solid;
+  height: auto;
+  max-width: 100%;
 }
 
 .image-box {
@@ -134,12 +132,15 @@ img {
 i {
   font-size: 40px;
 }
-
+i img {
+  height: 26px;
+  width: 26px;
+}
 
 footer {
-    padding: 1% 0;
-    background-color: black;
-    color: white;
+  padding: 1% 0;
+  background-color: black;
+  color: white;
 }
 footer a {
   color: white;
@@ -152,9 +153,8 @@ footer a {
     display: block;
   }
   nav {
-    transition: .5s;
+    transition: 0.5s;
     margin-left: 0;
-
   }
   nav ul {
     position: fixed;
@@ -163,8 +163,8 @@ footer a {
     top: 80px;
     left: 70%;
     text-align: left;
-    opacity: .8;
-    transition: .5s;
+    opacity: 0.8;
+    transition: 0.5s;
   }
   nav ul li {
     display: block;
