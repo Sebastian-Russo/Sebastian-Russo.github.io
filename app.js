@@ -4,7 +4,7 @@ const handleBurger = () => {
 
     if ($('.nav-list').hasClass('hidden')) {
         $('#hamburger').html("");
-        $('#hamburger').html('Menu');
+        $('#hamburger').html('Open');
     } else {
         $('#hamburger').html("");
         $('#hamburger').html('Close');
