@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" type="text/css" href="main.css">
     
-    <title>Seb's Portfolio</title>
+    <title>Sebastian Russo's Portfolio</title>
 </head>
 <body>
     <nav>
@@ -19,10 +19,12 @@
             <div id="hamburger" >Close</div>
         </label>
         <ul class="nav-list ">
-            <li><a href="#nav-project-0" class="nav-link" >Your Personal Menu</a></li>
-            <li><a href="#nav-project-1" class="nav-link" >Adhesives Specialists</a></li>
-            <li><a href="#nav-project-2" class="nav-link" >Ultimate Budgeter</a></li>
-            <li><a href="#nav-project-3" class="nav-link" >Pokémon Pokédex</a></li>
+            <!-- <li><a href="#nav-project-1" class="nav-link" >Profile App</a></li> -->
+            <li><a href="#nav-project-2" class="nav-link" >Your Personal Menu</a></li>
+            <li><a href="#nav-project-3" class="nav-link" >Adhesives Specialists</a></li>
+            <li><a href="#nav-project-4" class="nav-link" >Ultimate Budgeter</a></li>
+            <li><a href="#nav-project-5" class="nav-link" >Pokémon Pokédex</a></li>
+            <!-- <li><a href="#nav-project-6" class="nav-link" >React SERP</a></li> -->
             <li><a href="#nav-about-me" class="nav-link" >Sebastian</a></li>
             <li><a href="https://github.com/Sebastian-Russo" class="nav-link" target="blank">Github</a></li>
         </ul>
@@ -35,11 +37,12 @@
         <section>
             <p>A little about me:</p>
             <p>Self-taught, full stack developer skilled in writing clean, testable code. Proficient in mobile-first responsive design and test-driven development. Experienced with modern tooling and excited to continue growing as an engineer.</p> 
-            <p>Proficient in HTML, CSS, JavaScript, jQuery, React.js/Redux, and Node.js</p> 
+            <p>Proficient in HTML, CSS, JavaScript, jQuery, React.js/Redux, Node.js, Express.js, MondgoDB</p> 
             <i class="fab fa-html5"></i>
             <i class="fab fa-css3-alt"></i>
             <i class="fab fa-react"></i>
             <i class="fab fa-node-js"></i>
+            <i><img src="/images/mongo.png" alt="mongodb"></i>
 
             <h3>Why coding...</h3>
             <p>What draws me to coding is the opportunity to take ideas, create projects and, bit by bit, see them come to life. I embrace the daily challenge of learning something new in an ever-expanding and highly evolving field. Within the next 5 to 10 years I can only imagine how much more I will learn and create, given how much I’ve been able to accomplish in one year.
@@ -47,27 +50,50 @@
             I look forward to contributing to the art of coding whether that be as a team member with a promising company or independently…transforming the limitless ideas in my mind into reality.  
             </p>
         </section>
+        
         <h1>My Portfolio...</h1>
-        <section id="nav-project-0">
+
+        <!-- <section id="nav-project-1">
+            <h2>Profile App</h2>
+            <div class="image-box">
+                <a href="" target="blank">
+                    <img src="" alt="landing page" >
+                </a>
+            </div>
+            <p>Simple profile app which allows you to upload a picture and change your nickname. Demostrates the use of running a bash script. Dockerizing back and front end. Storing images in AWS s3. Authentication.</p>
+            <div class="tech">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-react"></i>
+                <i class="fab fa-node-js"></i>
+                <i class="fab fa-aws"></i>
+                <i class="fab fa-docker"></i>
+            </div> 
+            <a href="" class="btn" target="blank">View Project</a>
+            <a href="" class="btn" target="blank">View Code</a>
+        </section> -->
+
+        <section id="nav-project-2">
             <h2>Your Personal Menu</h2>
             <div class="image-box">
                 <a href="https://personal-menu.netlify.app/" target="blank">
                     <img src="/images/personal-menu-landing-page.png" alt="landing page" >
                 </a>
             </div>
-            <p>Store all your recipes from your magazines, pinterest, and those handed down in the family all in one central place. View it as your personal menu, select your meal to pull up the recipe. Click on ingredients you need to send them to your grocery list!</p>
+            <p>Application to store all your recipes from your magazines, pinterest, and those handed down in the family all in one central central database. Enter as recipe, view in a menu format with categories. Select item to view as recipe, select missing ingredients you need to add to your grocery list.</p>
             <div class="tech">
                 <i class="fab fa-html5"></i>
                 <i class="fab fa-css3-alt"></i>
                 <i class="fab fa-react"></i>
                 <i class="fab fa-node-js"></i>
+                <i><img src="/images/mongo.png" alt="mongodb"></i>
             </div> 
             <a href="https://personal-menu.netlify.app/" class="btn" target="blank">View Project</a>
             <a href="https://github.com/Sebastian-Russo/personal-menu" class="btn" target="blank">View Frontend Code</a>
             <a href="https://github.com/Sebastian-Russo/personal-menu-server" class="btn" target="blank">View Server Code</a>
         </section>
 
-        <section id="nav-project-1">
+        <section id="nav-project-3">
             <h2>Adhesives Specialists</h2>
             <div class="image-box">
                 After
@@ -79,7 +105,7 @@
                     <img src="/images/adspec-before.png" alt="Adhesives website before"  >
                 </a>
             </div>
-            <p>Redesigned previous employeer's website (From Wix to React) to be responsive and up to date with modern websites.</p>
+            <p>Redesigned previous employeer's website (From Wix to React) to be responsive with an updated modern website look.</p>
             <div class="tech">
                 <i class="fab fa-html5"></i>
                 <i class="fab fa-css3-alt"></i>
@@ -91,30 +117,33 @@
             <a href="https://github.com/Sebastian-Russo/ad-spec" class="btn" target="blank">View Frontend Code</a>
         </section>
         
-        <section id="nav-project-2">
+        <section id="nav-project-4">
             <h2>Ultimate Budgeter</h2>
             <div class="image-box">
                 <a href="https://seb-capstone2.herokuapp.com/" target="blank">
                     <img src="/images/ultimate-budgeter-budget-page.png" alt="budget page">
                 </a>
             </div>
-            <p>Tight on a budget? Find out how much you can save or spend this week.</p>
+            <p>Budget application geared towards low budget users needing to focus money management</p>
             <div class="tech">
                 <i class="fab fa-html5"></i>
                 <i class="fab fa-css3-alt"></i>   
                 <i><img src="https://img.icons8.com/ios-filled/50/000000/jquery.png"/></i>
+                <i><img src="/images/mongo.png" alt="mongodb"></i>
+                
             </div>
             <a href="https://seb-capstone2.herokuapp.com/" class="btn" target="blank">View Project</a>
             <a href="https://github.com/Sebastian-Russo/Capstone2" class="btn" target="blank">View Code</a>
         </section>
-        <section id="nav-project-3">
+
+        <section id="nav-project-5">
             <h2>Pokémon Pokédex</h2>
             <div class="image-box">
                 <a href="https://seb-pokedex.herokuapp.com/" target="blank">
                     <img src="images/pokedex-poke-page.png" alt="pokédex page" >
                 </a>
             </div>
-            <p>25 years later and a Pokédex can still come in handy.</p>
+            <p>25 years later and a Pokédex can still come in handy. Demonstrates use of use of API calls and data manipulation with jQuery.</p>
             <div class="tech">
                 <i class="fab fa-html5"></i>
                 <i class="fab fa-css3-alt"></i>
@@ -123,6 +152,25 @@
             <a href="https://seb-pokedex.herokuapp.com/" class="btn" target="blank">View Project</a>
             <a href="https://github.com/Sebastian-Russo/Pokedex" class="btn" target="blank">View Code</a>
         </section>
+
+        <!-- <section id="nav-project-6">
+            <h2>React Search Engine Results Page</h2>
+            <div class="image-box">
+                <a href="" target="blank">
+                    <img src="" alt="search bar" >
+                </a>
+            </div>
+            <p>Demonstrates use of API calls, data querying and manipulation in a React app</p>
+            <div class="tech">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i><img src="https://img.icons8.com/ios-filled/50/000000/jquery.png"/></i>
+            </div>
+            <a href="" class="btn" target="blank">View Project</a>
+            <a href="" class="btn" target="blank">View Code</a>
+        </section> -->
+
+
         <h2>Questions and Comments?</h2>
     </main>
 
