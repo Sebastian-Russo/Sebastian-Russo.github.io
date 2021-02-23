@@ -9,6 +9,7 @@ body {
 /* NAV BAR  */
 
 nav {
+  display: flex;
   position: fixed;
   width: 100%;
   color: black;
@@ -16,13 +17,14 @@ nav {
   list-style: none;
 }
 ul {
-  float: right;
+  display: flex;
   padding: 0;
   margin: 0;
   margin-right: 20px;
+  flex-direction: row-reverse;
 }
 nav ul li {
-  display: inline-block;
+  /* display: inline-block; */
   padding: 10px;
   margin: 0;
 }
@@ -89,6 +91,8 @@ div.p {
 }
 
 section {
+  /* display: flex;
+  flex-direction: column; */
   min-height: 200px;
   padding: 6% 0;
 }
@@ -157,6 +161,8 @@ footer a {
     margin-left: 0;
   }
   nav ul {
+    display: flex;
+    flex-direction: column;
     position: fixed;
     height: auto;
     background: black;
